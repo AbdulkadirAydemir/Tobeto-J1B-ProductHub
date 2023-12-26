@@ -14,8 +14,6 @@ function ProductCard(props) {
       setIsDeleted(true);
 
       console.log("Silinen Ürün:", simulatedResponse);
-
-      // onDelete prop'u varsa, silinen ürünü bildir
       if (props.onDelete) {
         props.onDelete();
       }

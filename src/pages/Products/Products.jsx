@@ -17,7 +17,6 @@ export default function Products() {
   };
 
   const handleProductDelete = (deletedProductId) => {
-    // Silinen ürünü filtrele ve setProducts ile güncelle
     const updatedProducts = products.filter(
       (product) => product.id !== deletedProductId
     );
